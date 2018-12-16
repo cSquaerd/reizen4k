@@ -1,12 +1,16 @@
 \documentclass[12pt, landscape]{article}
 \usepackage[letterpaper,total={10in,7.5in}]{geometry}
-
 \usepackage{ragged2e}
 \usepackage{multicol}
-
 \usepackage{listings}
+
 \renewcommand{\ttdefault}{txtt}
 \renewcommand{\familydefault}{\ttdefault}
+
+\renewcommand{\labelitemi}{$\circ$}
+\renewcommand{\labelitemii}{$\bullet$}
+\renewcommand{\labelitemiii}{$\diamond$}
+
 \setlength{\columnsep}{2em}
 \setlength{\columnseprule}{0.1em}
 \begin{document}
@@ -113,9 +117,37 @@
 
 					You are now able to heal normal humans, cyborgs, beast-folk, and Daemones Hominum of radiation poisoning by absorbing their exposure into yourself. This can only be done outside of combat
 				\end{itemize}
-
-				\vfill \pagebreak
 			\end{itemize}
+			\vfill \pagebreak
+
+			\subsubsection{Mutant}
+			\begin{itemize}
+				\item Bonuses
+				\begin{itemize}
+					\item +2 to Strength and Constitution ability scores
+					\item +1 to two other ability scores of your choice
+				\end{itemize}
+				\item Powers / Abilities
+				\begin{itemize}
+					\item \underline{Ubermensch}
+
+					You are sterile and incapable of reproduction, but do not feel the ill effects of ionizing radiation
+
+					\item \underline{Longevity}
+
+					Common diseases and poisons have reduced to no effect on you
+
+					\item \underline{Darwinism} (Level 4)
+
+					Your skin has hardened along your journey, literally! You now have innate resistances of +2 to Piercing, Slashing, and Bludgeoning. This increases by +1 every other level hereafter
+
+					\item \underline{Warm Glow} (Level 8)
+
+					Exposure to ionizing radiation now regenerates your health when not in combat at a rate of +2 per hour
+				\end{itemize}
+			\end{itemize}
+
+			\subsubsection{Cyborg}
 		\end{multicols}
 	\end{FlushLeft}
 \end{document}
