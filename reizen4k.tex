@@ -562,19 +562,18 @@
 
 			\subsubsection{Rules}
 			\begin{itemize}
-				\item Players: 2
-				\item Setup: Draw 4 side-deck cards from your personal side deck. Flip a coin or play Rock Paper Scissors to determine who takes the first turn in the first round.
-				\item Objective: Win 3 Rounds. To win a round, you must deal up to 9 cards such that one of the following score conditions is met:
+				\item Setup: Find two players. Draw four side-deck cards from your personal side deck. Flip a coin or play Rock Paper Scissors to determine who takes the first turn in the first round.
+				\item Objective: Be the first player to win 3 Rounds. To win a round, you must deal up to 9 cards such that one of the following score conditions is met:
 				\begin{itemize}
 					\item Your cards sum up to 20 (ties possible)
 					\item Your cards sum up to more than your opponent's cards
-					\item You play 9 cards with a sum less than or equal to 20 (beats a 20-sum of 8 cards or less)
+					\item You play 9 cards with a sum less than or equal to 20 (beats a 20-sum of 8 cards or less); If both players accomplish this, see the previous condition
 				\end{itemize}
 				\item Round Play:
 				\begin{itemize}
 					\item During a round, players take turns each drawing one card from the common deck
 					\item After a player draws, they have the option to play one side-deck card
-					\item If ever a player's dealt cards sum to 20, they cannot take anymore turns
+					\item If ever a player's dealt cards sum to 20, they automatically fold and cannot take anymore turns
 					\item Players can opt to fold (stop playing) at the end of their turn if their cards sum to less than 20
 					\item If a player's turn ends and their score exceeds 20, they automatically lose the round
 					\item The winning player of a round goes first in the next round
@@ -587,19 +586,19 @@
 			\begin{itemize}
 				\item Common-card deck
 
-				This deck consists of fourty cards, with four cards of values from 1 to 10. It can be created by removing face cards from a deck of playing cards
+				This deck consists of fourty cards, with four cards each of values from 1 to 10. It can be created by removing face cards from a deck of playing cards
 
 				\item Side-card deck
 
-				This deck must be assembled from exactly 10 cards of the player's choice, and must be shuffled at the beginning of every game and four cards randomly drawn from it. Legal cards can be of the following types:
+				This deck must be assembled from exactly 10 cards of the player's choice, and must be shuffled at the beginning of every game and four cards randomly drawn from it to be played. Legal cards can be of the following types:
 
 				\begin{itemize}
 					\item Plus Card: adds to the player's score, with values from 1 to 6; Set: $\{+1, +2, +3, +4, +5, +6\}$
 					\item Minus Card: subtracts from the player's score, with values from 1 to 6; Set: $\{-1, -2, -3, -4, -5, -6\}$
-					\item P.M. Card: adds or subtracts from the player's score, depending on which sign is facing up when the card is played, with values from 1 to 6; Set: $\{\pm1, \pm2, \pm3, \pm4, \pm5, \pm6\}$
-					\item Flip Card: flips the sign of all cards of a certain value already played by the player that plays this card, with values of 2 \& 4 and 3 \& 6; Set: $\{F2\&4, F3\&6\}$
+					\item P.M. Card: adds or subtracts from the player's score, depending on which side is facing away from the player when the card is played, with values from 1 to 6; Set: $\{\pm1, \pm2, \pm3, \pm4, \pm5, \pm6\}$
+					\item Flip Card: flips the sign of all cards of certain values already played by the player that plays this card, with values of 2 \& 4 and 3 \& 6; Set: $\{F2\&4, F3\&6\}$
 					\item Multiplier: multiplies the value of the last played card by a value, withs values of 2 and 3; Set: $\{M2, M3\}$
-					\item Tiebreaker: A special P.M. card that will ensure victory if it is the last played card and the opponent ties with the player, with values of 1 and 2; Set: $\{T1, T2\}$
+					\item Tiebreaker: A special P.M. card that will ensure victory if it is the last played card before folding and the opponent ties with the player, with values of 1 and 2; Set: $\{T\pm1, T\pm2\}$
 				\end{itemize}
 			\end{itemize}
 			\vfill \null
