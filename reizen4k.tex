@@ -541,7 +541,7 @@
 					\item Cost: Five for 2 SP
 					\item Weight: 0.02 lb
 				\end{itemize}
-				\item $200mm \times 11mm$ Aluminum flechette
+				\item $80mm \times 11mm$ Aluminum flechette
 				\begin{itemize}
 					\item Cost: 5 SP
 					\item Weight: 0.1 lb
@@ -567,7 +567,7 @@
 			\subsection{Weapon Mod Kits/Components}
 			\subsubsection{Overview}
 			Weapon Mods help to further customize and enhance once weaponry beyond one's skill or history with the weapon.
-			Though often as expensive as or moreso than the weapon they apply to, they afford specialist combatents great advantage in battle. \linebreak
+			Though often as expensive as or moreso than the weapon they apply to, they afford specialist combatants great advantage in battle. \linebreak
 			Rules for using mods are rather simple: \linebreak
 
 			Only one mod of a given class can be present on one weapon at a time; \linebreak
@@ -577,6 +577,7 @@
 			Mods can break if being removed and a critical failure occurs, though they can then be repaired for half their price from a weaponsmith, or by passing double the removal Difficulty Class check; \linebreak
 
 			Finally, special mods not listed below may be discovered on your journeys, but will often be boosted and/or specialized variants of said listed mods.
+
 			\subsubsection{Melee}
 			\begin{itemize}
 				\item Weights
@@ -623,12 +624,21 @@
 			\begin{itemize}
 				\item Basic Burst Fire
 				\begin{itemize}
-					\item Effect: perform 3 attacks, each -3 to Hit, with one Action, once per Turn
+					\item Effect: perform 3 Attacks, each -3 to Hit, with one Action, once per Turn
 					\item Class: Trigger
-					\item Attaches To: Pistol, Rifle
-					\item Add/Remove: $DC12$/$DC14$ Dexterity
+					\item Attaches To: Pistol, Scattergun, Rifle
+					\item Add/Remove: $DC12$/$DC14$ Intelligence
 					\item Weight: 3 lbs
 					\item Cost: 33 GP
+				\end{itemize}
+				\item Advanced Burst Fire
+				\begin{itemize}
+					\item Effect: perform 2 Attacks with one Action, once per Turn
+					\item Class: Trigger
+					\item Attaches To: Pistol, Scattergun, Rifle
+					\item Add/Remove: $DC14$/$DC18$ Dexterity or Intelligence
+					\item Weight: 2 lbs
+					\item Cost: 78 GP
 				\end{itemize}
 				\item Snub Barrel
 				\begin{itemize}
@@ -638,6 +648,77 @@
 					\item Add/Remove: $DC8$/$DC10$ Dexterity
 					\item Weight: 1 lb
 					\item Cost: 12 GP
+				\end{itemize}
+			\end{itemize}
+			\vfill \null \columbreak \columnbreak
+
+			\begin{itemize}
+				\item Extended Barrel
+				\begin{itemize}
+					\item Effect: +4 to Hit, +2 Piercing Damage
+					\item Class: Barrel
+					\item Attaches To: Pistol, Scattergun, Rifle
+					\item Add/Remove: $DC12$/$DC16$ Dexterity
+					\item Weight: 4 lbs
+					\item Cost: 64 GP
+				\end{itemize}
+				\item Leather-Padded Stock
+				\begin{itemize}
+					\item Effect: +1 to Hit
+					\item Class: Stock
+					\item Attaches To: Scattergun, Rifle, Flechetter
+					\item Add/Remove: $DC8$/$DC10$ Dexterity
+					\item Weight: 2 lbs
+					\item Cost: 10 GP
+				\end{itemize}
+				\item Carbon-Fiber Stock
+				\begin{itemize}
+					\item Effect: +3 to Hit, less weight
+					\item Class: Stock
+					\item Attaches To: Scattergun, Rifle, Flechetter
+					\item Add/Remove: $DC10$/$DC14$ Dexterity
+					\item Weight: -2 lbs
+					\item Cost: 24 GP
+				\end{itemize}
+			\end{itemize}
+			\vfill \pagebreak
+
+			\begin{itemize}
+				\item Red Dot Sight
+				\begin{itemize}
+					\item Effect: +1 to Hit, +40 feet of range
+					\item Class: Scope
+					\item Attaches To: Pistol, Rifle, Flechetter
+					\item Add/Remove: $DC10$/$DC14$ Intelligence
+					\item Weight: 1 lb
+					\item Cost: 40 GP
+				\end{itemize}
+				\item Telescopic Sight
+				\begin{itemize}
+					\item Effect: +4 to Hit, $\times$2 range
+					\item Class: Scope
+					\item Attaches To: Pistol, Rifle, Flechetter
+					\item Add/Remove: $DC14$/$DC18$ Dexterity or Intelligence
+					\item Weight: 4 lbs
+					\item Cost: 80 GP
+				\end{itemize}
+				\item Forward Pistol Grip
+				\begin{itemize}
+					\item Effect: +2 to Hit
+					\item Class: Grip
+					\item Attaches To: Scattergun, Rifle, Flechetter 
+					\item Add/Remove: $DC8$/$DC10$ Dexterity
+					\item Weight: 2 lbs
+					\item Cost: 12 GP
+				\end{itemize}
+				\item Bipod
+				\begin{itemize}
+					\item Effect: +4 to Hit, -1 Armor Class (when equipped)
+					\item Class: Grip
+					\item Attaches To: Scattergun, Rifle, Flechetter 
+					\item Add/Remove: $DC10$/$DC12$ Dexterity
+					\item Weight: 5 lbs
+					\item Cost: 25 GP
 				\end{itemize}
 			\end{itemize}
 
@@ -663,21 +744,46 @@
 			\vfill \null \columnbreak
 
 			\section{Misc. Notes \& Gameplay Rules}
+			\subsection{Skill Points}
+			Skills work off a bonus-points system, where a player can spend skill points during level-up to further buff skills of theirs.
+			When rolling for a skill check, a player with bonus points can add said points and the roll, which also already has an Ability mod and potentially Proficiency.
+			Skill points are allotted as follows:
 			\begin{itemize}
-				\item Skills work off a bonus-points system, where a player can spend skill points during level-up to further buff skills of theirs. When rolling for a skill, a player with bonus points can add said points and the skill's associated ability score modifier to the roll. Skill points are alotted as follows:
-				\begin{itemize}
-					\item Points at Level 1: \linebreak $4 \times \big(2 \; + \max(\text{Int. mod.}, \text{ Wis. mod.})\big)$
-					\item Points every higher level: \linebreak $2 \; + \max(\text{Int. mod.}, \text{ Wis. mod.})$
-				\end{itemize}
-				Skill points can also be earned by taking sessions with skill trainers over the course of a player's journey
-				\item For character generation, ability scores can be determined by any one of the three following methods:
-				\begin{itemize}
-					\item Six $D20$: Roll six $D20$ dice and distribute the rolls to your ability scores
-					\item Four-Drop-Lowest $D6$: Roll four $D6$ and discard the lowest roll. Repeat six times, and then distribute the sums of the rolls to your ability scores
-					\item Point-Buy: Start all ability scores at 8. Given 27 points to distribute, increase scores up to a maximum of 15 until exactly 27 points are spent. One score increase costs one point up until a score of 13; Increasing a score from 13 to 14 costs two points, as does increasing a score from 14 to 15. For example, a score of 10 costs 2 points, 12 costs 4 points, 14 costs 7 points.
-				\end{itemize}
+				\item Points at Level 1: \linebreak $4 \times \big(1 \; + \max(\text{Int. mod.}, \text{ Wis. mod.}, 0)\big)$
+				\item Points every higher level: \linebreak $1 \; + \max(\text{Int. mod.}, \text{ Wis. mod.}, 0)$
 			\end{itemize}
-			\vfill \pagebreak
+			Skill points can also be earned by taking sessions with skill trainers over the course of a player's journey
+			\subsection{Ability Score Generation}
+			For character generation, ability scores can be determined by any one of the three following methods:
+			\begin{itemize}
+				\item Six $D20$: Roll six $D20$ dice and distribute the rolls to your ability scores
+				\item Four-Drop-Lowest $D6$: Roll four $D6$ and discard the lowest roll. Repeat six times, and then distribute the sums of the rolls to your ability scores
+				\item Point-Buy: Start all ability scores at 8. Given 27 points to distribute, increase scores up to a maximum of 15 until exactly 27 points are spent. One score increase costs one point up until a score of 13; Increasing a score from 13 to 14 costs two points, as does increasing a score from 14 to 15. For example, a score of 10 costs 2 points, 12 costs 4 points, 14 costs 7 points.
+			\end{itemize}
+			\vfill \null \columnbreak
+			\subsection{Ionizing Radiation}
+			Though unseen to the naked eye, radiation sources and contaminated zones are just as deadly to adventurers as military drones, highwaymen, or any matter of aberrations.
+			Though measurements of radiation vary depending on the context, a scale of Severity Levels is often used by common travellers, ranging from 1, being mildly abnormal, to 5, being certain to cause death in the short term. \linebreak
+
+			All creatures not immune or protected from a given Severity Level will suffer a negative change to their Strength and Constitution Ability scores while within a zone of radiation.
+			Additionally, for Severity Levels 3 and higher, susceptible creatures must make a Constitution Saving Throw every 15 minutes, with difficulty class 8 + (Severity Level $\times$ 2).
+			Failing a throw will cause the Strength and Constitution deficits to become permanent, as an effect called Radiation Poisoning, which must be treated by proper medical personnel.
+			Subsequent failed throws when under the effects of Radiation Poisoning will deal direct damage to the creature equal to the Severity Level.
+			A few example scenarios are listed below:
+
+			\begin{itemize}
+				\item An Ursa with Strength 19 and Constitution 15 enters a Severity 4 radiation zone.
+				His Strength immediately drops to 15 and his Constitution to 11.
+				After 45 minutes, he fails his first Constitution Saving Throw of $DC16$.
+				He leaves the zone 40 minutes later, having failed two more Saving Throws, lost 8 Hit Points, and gained Severity 4 Radiation Poisoning.
+				\item A Human with Strength 15 and Constitution 17 enters a Severity 3 radiation zone.
+				Her Strength immediately drops to 12 and her Constitution to 14.
+				She leaves after 20 minutes, succeeding a Constitution Saving Throw of $DC14$.
+				Upon leaving, her Strength and Constitution return to normal
+				\item A Radified enters a Severity 5 radiation zone.
+				They suffer no loss of Strength or Constitution, and stay within the zone for nearly a week.
+
+			\end{itemize}
 
 			\section{Minigames}
 
