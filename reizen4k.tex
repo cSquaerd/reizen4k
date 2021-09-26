@@ -436,7 +436,7 @@
 				\begin{itemize}
 					\item Description: Steel gauntlet with a plated-piston attached
 					\item Cost: 40 GP
-					\item Base Damage: One $D8$, Bludgeoning
+					\item Base Damage: $1D8$, Bludgeoning
 					\item Weight: 4 lbs
 					\item Bonuses: Finesse
 				\end{itemize}
@@ -448,7 +448,7 @@
 				\begin{itemize}
 					\item Description: Knife with an electrically-driven rotary chain blade, with a maximum speed of 8,000 RPM
 					\item Cost: 25 GP
-					\item Base Damage: Two $D4$, Slashing
+					\item Base Damage: $2D4$, Slashing
 					\item Requirements: Mk. I Power Cell
 					\item Weight: 3 lbs
 				\end{itemize}
@@ -459,7 +459,7 @@
 				\begin{itemize}
 					\item Description: Sword with an electrically-driven rotary chain blade, with a maximum speed of 13,000 RPM
 					\item Cost: 50 GP
-					\item Base Damage: Two $D6$, Slashing
+					\item Base Damage: $2D6$, Slashing
 					\item Requirements: Two Mk. I Power Cells
 					\item Weight: 5 lbs
 				\end{itemize}
@@ -476,7 +476,7 @@
 					\item Ammunition Capacity: 20
 					\item Recharge Time: 1 second
 					\item Price: 62 GP \& 5 SP
-					\item Base Damage: One $D6$ +1, Piercing
+					\item Base Damage: $1D6$ +1, Piercing
 					\item Base Range: 85 / 360
 					\item Requirements: Mk. I Power Cell
 					\item Weight: 3 lbs
@@ -488,7 +488,7 @@
 					\item Ammunition Capacity: 4
 					\item Recharge Time: 2 seconds
 					\item Price: 57 GP \& 5 SP
-					\item Base Damage: Two $D4$, Piercing
+					\item Base Damage: $2D4$, Piercing
 					\item Base Range: 30 / 80
 					\item Requirements: Mk. I Power Cell
 					\item Weight: 8 lbs
@@ -504,7 +504,7 @@
 					\item Ammunition Capacity: 10
 					\item Recharge Time: 4 seconds
 					\item Price: 87 GP \& 5 SP
-					\item Base Damage: One $D8$ +1, Piercing
+					\item Base Damage: $1D8$ +1, Piercing
 					\item Base Range: 180 / 720
 					\item Requirements: Two Mk. I Power Cells
 					\item Weight: 10 lbs
@@ -512,11 +512,11 @@
 				\item Gauss Flechetter
 				\begin{itemize}
 					\item Description: Shoulder-mounted gaussian flechette launcher with a $350 \frac{m}{s}$ muzzle velocity
-					\item Ammunition: $200mm \times 11mm$ cylindrical flechette (Aluminum)
+					\item Ammunition: $80mm \times 11mm$ cylindrical flechette (Aluminum)
 					\item Ammunition Capacity: 1
 					\item Recharge Time: 5 seconds
 					\item Price: 100 GP
-					\item Base Damage: One $D12$ +2, Piercing
+					\item Base Damage: $1D12$ +2, Piercing
 					\item Base Range: 160 / 640
 					\item Requirements: Mk. II Power Cell
 					\item Weight: 16 lbs
@@ -563,6 +563,83 @@
 				\end{itemize}
 			\end{itemize}
 			\vfill \pagebreak
+
+			\subsection{Weapon Mod Kits/Components}
+			\subsubsection{Overview}
+			Weapon Mods help to further customize and enhance once weaponry beyond one's skill or history with the weapon.
+			Though often as expensive as or moreso than the weapon they apply to, they afford specialist combatents great advantage in battle. \linebreak
+			Rules for using mods are rather simple: \linebreak
+
+			Only one mod of a given class can be present on one weapon at a time; \linebreak
+
+			Mods can be added and/or removed from a weapon if an Ability check is passed for the mods' given Difficulty Class and Ability, and the check is performed outside of combat; \linebreak
+
+			Mods can break if being removed and a critical failure occurs, though they can then be repaired for half their price from a weaponsmith, or by passing double the removal Difficulty Class check; \linebreak
+
+			Finally, special mods not listed below may be discovered on your journeys, but will often be boosted and/or specialized variants of said listed mods.
+			\subsubsection{Melee}
+			\begin{itemize}
+				\item Weights
+				\begin{itemize}
+					\item Effect: +(Weight $\div$ 4, round down) Bludgeoning Damage, -(Weight $\div$ 8, round down) to Hit
+					\item Class: Melee
+					\item Attaches To: Blunt 
+					\item Add/Remove: $DC6$/$DC8$ Strength
+					\item Weight: 4 to 16 lbs
+					\item Cost: 1 GP
+				\end{itemize}
+				\vfill \null \columbreak
+				\item Spikes
+				\begin{itemize}
+					\item Effect: +(Weight $\div$ 2, round down) Piercing Damage
+					\item Class: Melee
+					\item Attaches To: Blunt
+					\item Add/Remove: $DC8$/$DC10$ Dexterity
+					\item Weight: 2 to 6 lbs
+					\item Cost: 3 GP
+				\end{itemize}
+				\item Whetstone
+				\begin{itemize}
+					\item Effect: +(Weapon Damage Die $\div$ 2) Piercing/Slashing Damage (inherit type from weapon), lasts for 12 hours, can be reapplied
+					\item Class: Melee
+					\item Attaches To: Bladed
+					\item Add/Remove: $DC10$/$-$ Intelligence
+					\item Weight: N/A
+					\item Cost: 5 GP (Simple) or 25 GP (Martial)
+				\end{itemize}
+				\item Shock Pack
+				\begin{itemize}
+					\item Effect: + $1D($Weapon Damage Die$)$ Lightning Damage
+					\item Class: Melee
+					\item Attaches To: Bladed, Chain
+					\item Add/Remove: $DC14$/$DC18$ Intelligence
+					\item Weight: 5 lbs
+					\item Cost: 30 GP
+				\end{itemize}
+			\end{itemize}
+			\vfill \pagebreak
+
+			\subsubsection{Ranged}
+			\begin{itemize}
+				\item Basic Burst Fire
+				\begin{itemize}
+					\item Effect: perform 3 attacks, each -3 to Hit, with one Action, once per Turn
+					\item Class: Trigger
+					\item Attaches To: Pistol, Rifle
+					\item Add/Remove: $DC12$/$DC14$ Dexterity
+					\item Weight: 3 lbs
+					\item Cost: 33 GP
+				\end{itemize}
+				\item Snub Barrel
+				\begin{itemize}
+					\item Effect: +2 to Hit, no Piercing Bonus Damage  
+					\item Class: Barrel
+					\item Attaches To: Pistol, Scattergun, Rifle
+					\item Add/Remove: $DC8$/$DC10$ Dexterity
+					\item Weight: 1 lb
+					\item Cost: 12 GP
+				\end{itemize}
+			\end{itemize}
 
 			\subsection{Vehicles}
 			\begin{itemize}
