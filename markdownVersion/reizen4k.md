@@ -1,0 +1,876 @@
+---
+title: Reizen 4000
+subtitle:
+- A D\&D 5th Edition Expansion Module $\linebreak$ Mk. II Rev. A 
+author: Presented by C$^2$ Studios
+fontsize: 16pt
+documentclass: scrbook
+indent: true
+---
+
+<!--\documentclass[12pt, landscape]{article}
+\usepackage[letterpaper, margin=0.5in, total = {10in, 7.5in}]{geometry}
+\usepackage{ragged2e}
+\usepackage{amsmath}
+\usepackage{multicol}
+\usepackage{listings}
+\usepackage{enumitem}
+
+\renewcommand{\ttdefault}{txtt}
+\renewcommand{\familydefault}{\ttdefault}
+
+\renewcommand{\labelitemi}{$\circ$}
+\renewcommand{\labelitemii}{$\bullet$}
+\renewcommand{\labelitemiii}{$\diamond$}
+
+\setlength{\columnsep}{2em}
+\setlength{\columnseprule}{0.1em}
+\begin{document}
+
+	\begin{Center}
+		\large
+		C$^2$ Studios Presents
+
+		\Large
+		A D\&D 5E Expansion Module
+
+		\LARGE
+		\textbf{Reizen 4000, Mk. II}
+	\end{Center}
+
+	\begin{FlushLeft}
+		\small
+		\begin{multicols}{2}
+			\tableofcontents
+		\end{multicols}
+		\pagebreak
+
+		\begin{multicols}{2}-->
+
+# Setting \& History
+
+It is two millennia into the future.
+Humanity’s supremacy over Earth has dwindled, due largely in part to the Great Exodus and the onset of Era of Magic.
+The Exodus occurred sometime in the 25th century, where massive fleets of starships lifted off to relocate much of the human population following a grueling intrasystem war.
+Though successful in saving the species, it reduced the planetside human population from 3 billion to under 500 million.
+
+As a result, many civilizations faded as those who remained clustered in non-equatorial coastal cities, as the Great Aridization was at its peak;
+temperatures in equatorial regions reached 140F on average, and many desert regions expanded and invaded at an unprecedented rate.
+Migration was so extreme that the American continent regained mythic status among some, as did Australia, North Africa, The Eurasian Steppe, and Antarctica, due to the lack of human presence there for the second half of the 2nd millennia.
+
+Though the human population did increase to around 1.5 billion by the 3rd millennia, so too did other populations.
+A combination of radioactive fallout from the multiple wars and accidents, and the awakening of magical forces, spurred the evolution of large mammals and small reptiles, which gave rise to Beast-Folk in the aforementioned abandoned continents.
+Though apprehensive at first, humans and beasts came to coexist in time, though xenophobia on both sides still resides in some circles.
+$\vspace{\fill}\pagebreak$
+
+As mentioned before, forces and powers once resigned to fiction began manifesting following the Exodus.
+A select group of humans and beasts were found to be able to shoot flames from thin air, lift objects without moving a finger, and heal all manner of diseases and wounds with a simple touch, and even turn themselves invisible.
+Though a rare feat, the five to ten percent of sentients capable of magic are overall benign, with the Order of International Mages holding sound dominion over all things arcane.
+
+Even with all the odd and amazing revelations of the past, much from the Era of Humans remains lost or undiscovered across the world.
+Many ancient bunkers remain, many from the 21st and 22nd centuries, and in near working order.
+Within their depths, armies of autonomous machines stand vigilant protecting the secrets of their creators, and, at times, do so aggressively.
+
+They are not alone in their malevolence;
+Rogue mages, practitioners of necromancy or daemon communion, prowl the wastelands on the fringes of civilization;
+Feral Beast-Folk stalk the mountains, caves, and forests born anew after the Great Aridization;
+and, worst of all, certain "cursed" locations remain hotbeds for daemon interlopers, extra-dimensional aberrations that seek to kill or consume everything in their path.
+$\vspace{\fill}\pagebreak$
+
+And this only covers Earth; The Great Exodus led the establishment of fifteen colonies within the Orion Arm of the Milky Way.
+Initially named numerically by foundation date, these Orion colonies developed into distinct worlds over the proceeding millennia.
+They all maintained contact with Orion Zero (Earth) via traditional radio communications, sped along in propagation by the same space-folding technology that afforded their settlement.
+However, as each colony was rather self-sufficient, trade and travel quickly became leisure activities.
+
+This lax attitude proved disastrous in the 38th century, when a still unknown storm-like phenomena rendered space-folding of matter impossible.
+Though radio contact was still possible, those who wanted to travel the colonies were forced to use ancient and dangerous methods, either cryosleepers or generation-ships.
+The first few bound for Earth have begun arriving from Orions 1 and 4 within the past few decades, and many more are expected or en route.
+Though not confirmed, several Daemon mages of The Order have speculated their ancestors are the cause of the fold storms, and have been researching ways to circumvent the interference via the same warping ability that delivered them unto Earth.
+
+Much awaits adventurers in this world, and in worlds beyond...
+$\vspace{\fill}\pagebreak$
+
+# Playable Races
+## Regular Human
+### Bonuses
+
+* +2 to one ability score of your choice
+* +1 to all other ability scores
+
+### Powers  / Abilities
+
+* **Hard Work \& Guts!** $\hfill\null\linebreak$ 
+Your ancestors conquered the planet and the stars, and their determination now rests in you. Once per long rest, whenever you roll a 1 on a d20 check, you have the option to re-roll without penalty
+
+* **Hybridization** (optional) $\hfill\null\linebreak$
+Per the player’s choice, their human player can be part (mammalian) Beast-Folk or part Daemon.
+When a hybrid, the player gets the explicit Ability buffs of their other race up to +2, and the choice of one of the beast’s base features, and later one of the beast’s leveled features.
+Hard Work \& Guts! and one of the two leveled features listed below should also be taken, with the leveled feature being at a different level from the beast leveled feature. $\hfill\null\linebreak\linebreak$
+*Hybridization Examples*
+	* a Human-Ursa has +2 to Strength, +2 to Constitution, +1 to one other ability score, and either In The Woods or Claws, and either Go-Getter Spirit and The Nose Knows or More Guts! and Micro Hibernation.
+
+	* a Human-Feline has +2 to Dexterity, +2 to Charisma, +1 to one other ability score, and either Cunning or Darkvision, and either Go-Getter Spirit and Claws or More Guts! and Nine Lives.
+
+* **More Guts!** (Level 4) $\hfill\null\linebreak$
+Your hard work along your journey is paying off! Add +1 permanently to any Ability Score
+
+* **Go-Getter Spirit** (Level 8) $\hfill\null\linebreak$
+An odd, green energy now flows throughout you.
+All damage done to Daemonkind, Dragons, and other mighty beasts gains +2 overall.
+This increases by +1 every other level ($10, 12, 14, \dots$) hereafter
+
+## Radified Human ("Ghoul")
+### Bonuses
+
+* +2 to Intelligence, Wisdom, and Dexterity ability scores
+
+### Powers / Abilities
+
+* **Healthy Glow** $\hfill\null\linebreak$
+   Unlike most organics, instead of being hindered by radiation, you are helped by it.
+Exposure to ionizing radiation produces the following effects on you:
+	* +10 HP per hour (outside of combat)
+	* +1 HP per turn (in combat)
+	* Increase to all ability scores proportional to severity of radiation (1 to 5)
+
+* **Longevity** $\hfill\null\linebreak$
+Common diseases and poisons have reduced to no effect on you.
+All CON saving throws you make against disease and poison effects have advantage
+
+* **Strange Growth** (Optional, Level 4) $\hfill\null\linebreak$
+Per the player’s choice, a symbiotic plant (?) has begun growing out of somewhere on your body.
+You now regenerate health at a rate of +2 per hour in direct sunlight. In overcast weather, the rate is halved
+
+* **Radiant Conduit** (Level 8) $\hfill\null\linebreak$
+You are now able to heal normal humans, cyborgs, beast-folk, and Daemones Hominum of radiation poisoning by absorbing their exposure into yourself.
+This can only be done outside of combat, and once per long rest.
+When complete, the treated person will be free of Radiation Poisoning
+
+## Mutant Human
+### Bonuses
+
+* +2 to Strength and Constitution ability scores
+* +1 to two other ability scores of your choice
+
+### Powers / Abilities
+
+* **Ubermensch** $\hfill\null\linebreak$
+You are sterile and incapable of reproduction, but do not feel the ill effects of ionizing radiation
+
+* **Longevity** $\hfill\null\linebreak$
+Common diseases and poisons have reduced to no effect on you.
+All CON saving throws you make against disease and poison effects have advantage
+
+* **Darwinism** (Level 4) $\hfill\null\linebreak$
+Your skin has hardened along your journey, literally!
+You now have innate resistances of +2 to Piercing, Slashing, and Bludgeoning
+
+* **Warm Glow** (Level 8) $\hfill\null\linebreak$
+Exposure to ionizing radiation now regenerates your health when not in combat at a rate of +2 per hour
+
+## Cyborg Human
+### Bonuses
+
+* +2 to Intelligence and Constitution ability scores
+* +1 to two other ability scores of your choice
+
+### Powers / Abilities
+* **Modularity** $\hfill\null\linebreak$
+Per the player’s choice, you can have special modular limbs, eyes, teeth, ears, or a nose, but each reduces your Constitution ability score by 1.
+Eyes, teeth, and ears count as one each.
+
+	* Arm: +1 Strength
+	* Leg: +1 Dexterity
+	* Eyes: **Encoded Vision** $\hfill\null\linebreak$
+	Gain advantage to perception checks when under an illusion or partially blinded
+	* Teeth: **Powered Bite** $\hfill\null\linebreak$
+	Bite attacks deal 2 + Strength Mod. (minimum of 2) of Bludgeoning damage
+	* Ears: **SONAR** $\hfill\null\linebreak$
+	See **Hyper-Hearing** under Canid race
+	* Nose: **Respiratory Filter** $\hfill\null\linebreak$
+	Airborne poisons and pathogens have reduced to no effect on you.
+	They are ineffective up to (5 * Character Level) HP of damage and do not linger for multiple turns
+
+* **Breaking In I** (Level 4) $\hfill\null\linebreak$
+In adapting to your body’s new features, you’ve gained +1 to your Constitution ability score.
+Cybernetic Arms and Legs' bonuses also each gain +1 to their respective ability score bonuses.
+$\vspace{\fill}\pagebreak$
+
+* **Breaking In II** (Level 8) $\hfill\null\linebreak$
+You have adapted even more to your body, and have gained an additional +1 to your Constitution ability score.
+Secondary cybernetics gain the following additional features:
+
+	* **Encoded Vision** now fully prevents blindness and affect by illusion
+	* **Powered Bite** now deals 3 + Strength Mod. + Dexterity Mod. (minimum of 3) of Bludgeoning \& Piercing damage
+	* **SONAR** now integrates sonic data into a HUD that tracks and directs to the source of extreme sounds, loud or quiet, revealing the source's location
+	* **Respiratory Filter** now features a micro-rebreather that allows for underwater breathing for hours at a time equal to your Constitution Mod. (minimum of 1)
+
+## Ursa Beast-Folk (Bear)
+### Bonuses
+
+* +3 to Strength ability score
+* +2 to Constitution ability score
+* +1 to one other ability scores of your choice
+
+### Powers / Abilities
+* **In The Woods** $\hfill\null\linebreak$
+You are at home away from civilization.
+When outdoors in wooded or rural areas, gain +1 to all ability scores and general advantage in combat
+
+* **Claws** $\hfill\null\linebreak$
+When unarmed, your claws add +3 Slashing damage to all unarmed attacks.
+This increases by +1 every fourth level ($4, 8, 12, \dots$) hereafter $\hfill\null\linebreak$
+
+* **The Nose Knows** (Level 4) $\hfill\null\linebreak$
+You now have an uncanny ability to detect scents humans and other beast-folk cannot.
+You have advantage on and proficiency with olfactory-based Perception checks
+
+* **Micro-Hibernation** (Level 8) $\hfill\null\linebreak$
+For 24 hours after every long rest you take, you gain +4 to your Armor Class, +1 to your Strength ability score, and your claws deal an additional +2 Slashing damage
+
+## Gecko Beast-Folk (Lizard)
+			\begin{itemize}[wide]
+				\item Bonuses
+				\begin{itemize}
+					\item +4 to Dexterity ability score
+					\item +1 to two other ability scores of your choice
+				\end{itemize}
+				\item Powers / Abilities
+				\begin{itemize}
+					\item **Mending Tongue}
+
+					Not only is good for cleaning one's eyes, a Gecko’s tongue is capable of many odd feats.
+					Mainly, it can heal minor wounds (four +4 HP licks per Rest (long or short), one additional lick more every even level)
+
+					\item **Darkvision}
+					\item **Tongue Grapple} (Level 4)
+
+					Your tongue is now sturdy and long enough to support your weight. When attached to a surface, you can grapple under it up to 3 feet.
+					Alternatively, you can sling objects of your weight or less around in a 3 foot radius
+					\item **Thick Skin} (Level 8)
+
+					After several times shedding, you find your new skin is much more resilient!
+					Per the player’s choice, you can now resist either +3 Piercing damage, +3 Slashing damage, or +3 Bludgeoning damage innately, and you unarmored AC is now 13 + Dexterity Mod. (Maximum of +3)
+				\end{itemize}
+			\end{itemize}
+			\vfill \pagebreak
+
+## Canid Beast-Folk (Dog)
+			\begin{itemize}[wide]
+				\item Bonuses
+				\begin{itemize}
+					\item +3 to Charisma ability score
+					\item +2 to Dexterity ability score
+					\item +1 to one other ability score of your choice
+				\end{itemize}
+				\item Powers / Abilities
+				\begin{itemize}
+					\item **Friendliness}
+
+					Though your kind are now treated equal to humans, they still hold you in confidence unconditionally.
+					You gain proficiency in Persuasion and Performance checks in general, with advatange against humans
+
+					\item **Hyper-Hearing}
+
+					Your biology allows you to hear quieter sounds and higher frequencies compared to most Beast-Folk.
+					You have advantage on and proficiency with auditory-based Perception checks
+
+					\item **Fangs} (Level 4)
+
+					Your teeth and jaw feel stronger since starting your journey.
+					Your Unarmed Strikes that are bites now deal an extra +3 Piercing damage. This increases by +1 every fourth level ($8, 12, 16, \dots$) hereafter
+					\item **Hyper-Smelling} (Level 8)
+
+					You now have an uncanny ability to detect scents humans and other beast-folk cannot.
+					You have advantage on and proficiency with olfactory-based Perception checks
+				\end{itemize}
+			\end{itemize}
+			\vfill \null \columnbreak
+
+## Feline Beast-Folk (Cat)
+			\begin{itemize}[wide]
+				\item Bonuses
+				\begin{itemize}
+					\item +3 to Dexterity ability score
+					\item +2 to Charisma ability score
+					\item +1 to one other ability score of your choice
+				\end{itemize}
+				\item Powers / Abilities
+				\begin{itemize}
+					\item **Cunning}
+
+					Like your simpler ancestors, you can get your way in most all situations with your former masters.
+					You gain proficiency in Deception and Intimidation in general, with advantage against humans
+					\item **Darkvision}
+					\item **Claws} (Level 4)
+
+					Your claws feel stronger since starting your journey.
+					Your Unarmed Strikes with your arms now deal an extra +2 Slashing damage.
+					This increases by +1 every third level ($6, 9, 12, \dots$) hereafter
+
+					\item **Nine Lives} (Level 8)
+
+					You’re not exactly sure how, but you can now cheat death.
+					For the next nine times you either take damage that would normally kill you, or fail a third death save, then either your health instead hits exactly zero, or you become stabilized.
+					After using this ability nine times, it no longer has any effect, forever
+				\end{itemize}
+			\end{itemize}
+			\vfill \pagebreak
+
+## Daemon Hominis (Humanoid Demon)
+			\begin{itemize}[wide]
+				\item Bonuses
+				\begin{itemize}
+					\item +4 to Wisdom ability score
+					\item +2 to Intelligence ability score
+					\item -1 to Charisma ability score
+					\item +1 to one other ability score of your choice
+				\end{itemize}
+				\item Powers / Abilities
+				\begin{itemize}
+					\item **Xenonic Fury}
+
+					When casting damage-dealing magic, you gain +1 to all accuracy and damage rolls.
+					This increases by +1 every fifth level ($5, 10, 15, \dots$) hereafter
+
+					\item **Daemonvision}
+
+					Darkvision extended to being able to sense cloaked/non-corporeal daemons
+
+					\item **Daemonic Phasing} (Level 4)
+
+					Once per short rest, you can phase out of the material world into a border world, which is spatially congruent with where you are but separate.
+					Be warned, Daemonkind can inhabit this border world as well, making it useless to flee to when outmatched by Daemonkind
+
+					\item **Group Phasing} (Level 8)
+
+					You can now transport with you 2 other creatures or people into the border world.
+					This increases by 1 creature every other level ($10, 12, 14, \dots$) hereafter
+				\end{itemize}
+			\end{itemize}
+			\vfill \pagebreak
+
+<!--
+
+# Additional Items}
+## Armor}
+### Light Armor}
+			\begin{itemize}[wide]
+				\item Kevlar Vest
+				\begin{itemize}
+					\item Cost: 35 GP
+					\item Armor Class: 11 + Dexterity mod.
+					\item Bonuses: +4 against Piercing damage
+					\item Weight: 11 lbs
+				\end{itemize}
+				\item Kevlar Suit
+				\begin{itemize}
+					\item Cost: 60 GP
+					\item Armor Class: 12 + Dexterity mod.
+					\item Bonuses: +6 against Piercing damage
+					\item Weight: 15 lbs
+				\end{itemize}
+			\end{itemize}
+
+### Medium Armor}
+			\begin{itemize}[wide]
+				\item Polymer Vest
+				\begin{itemize}
+					\item Cost: 350 GP
+					\item Armor Class: 13 + Dexterity mod. (maximum of +4)
+					\item Bonuses: +4 against Piercing damage, +1 against Slashing damage
+					\item Weight: 18 lbs
+				\end{itemize}
+				\item Polymer Suit
+				\begin{itemize}
+					\item Cost: 500 GP
+					\item Armor Class: 14 + Dexterity mod.
+					\item Bonuses: +6 against Piercing damage, +2 against Slashing damage, Disatvantage to Stealth checks
+					\item Weight: 25 lbs
+				\end{itemize}
+			\end{itemize}
+			\vfill
+
+### Heavy Armor}
+			\begin{itemize}[wide]
+				\item Hard Suit
+				\begin{itemize}
+					\item Cost: 175 GP
+					\item Armor Class: 16 + Constitution mod. (maximum of +2)
+					\item Bonueses: +4 to Piercing, Slashing, and Bludgeoning damage, Disatvantage to Stealth checks
+					\item Requirements: 10 Strength, Mk. I Power Cell
+					\item Requirements-Not-Met Debuffs: -2 to Dexterity ability score, 14 Armor Class
+					\item Weight: 50 lbs
+				\end{itemize}
+				\item Powered Exoskeleton
+				\begin{itemize}
+					\item Cost: ???
+					\item Armor Class: 16 + Constitution mod. + Dexterity mod.
+					\item Bonuses: +8 to Piercing, Slashing, and Bludgeoning damage, Disatvantage to Stealth checks
+					\item Requirements: 12 Strength, Mk. II Power Cell
+					\item Requirements-Not-Met Debuffs: -4 to Dexterity ability score, 14 Armor Class
+					\item Weight: 82 lbs
+				\end{itemize}
+			\end{itemize}
+			\vfill \pagebreak
+
+## Weapons}
+
+### Simple Melee Weapons}
+			\begin{itemize}[wide]
+				\item Pneumatic Gauntlet
+				\begin{itemize}
+					\item Description: Steel gauntlet with a plated-piston attached
+					\item Cost: 40 GP
+					\item Base Damage: $1D8$, Bludgeoning
+					\item Weight: 4 lbs
+					\item Bonuses: Finesse
+				\end{itemize}
+			\end{itemize}
+
+### Martial Melee Weapons}
+			\begin{itemize}[wide]
+				\item Chainknife
+				\begin{itemize}
+					\item Description: Knife with an electrically-driven rotary chain blade, with a maximum speed of 8,000 RPM
+					\item Cost: 25 GP
+					\item Base Damage: $2D4$, Slashing
+					\item Requirements: Mk. I Power Cell
+					\item Weight: 3 lbs
+				\end{itemize}
+				\item Chainsword
+				\begin{itemize}
+					\item Description: Sword with an electrically-driven rotary chain blade, with a maximum speed of 13,000 RPM
+					\item Cost: 50 GP
+					\item Base Damage: $2D6$, Slashing
+					\item Requirements: Two Mk. I Power Cells
+					\item Weight: 5 lbs
+				\end{itemize}
+			\end{itemize}
+			\vfill
+
+### Simple Ranged Weapons}
+			(Note: S.E. is short for Sphere Equivalent.)
+			\begin{itemize}[wide]
+				\item Gauss Pistol
+				\begin{itemize}
+					\item Description: Handheld railgun with a $1000 \frac{m}{s}$ muzzle velocity
+					\item Ammunition: $10mm$ S.E. minie-ball (Aluminum)
+					\item Ammunition Capacity: 20
+					\item Recharge Time: 1 second
+					\item Price: 62 GP \& 5 SP
+					\item Base Damage: $1D6$ +1, Piercing
+					\item Base Range: 85 / 360
+					\item Requirements: Mk. I Power Cell
+					\item Weight: 3 lbs
+				\end{itemize}
+				\item Gauss Scattergun
+				\begin{itemize}
+					\item Description: Semi-automatic gaussian shotgun with a $500 \frac{m}{s}$ muzzle velocity
+					\item Ammunition: $8 \times 6mm$ B.B.-shell (Aluminum)
+					\item Ammunition Capacity: 4
+					\item Recharge Time: 2 seconds
+					\item Price: 57 GP \& 5 SP
+					\item Base Damage: $2D4$, Piercing
+					\item Base Range: 30 / 80
+					\item Requirements: Mk. I Power Cell
+					\item Weight: 8 lbs
+				\end{itemize}
+			\end{itemize}
+			\vfill
+
+### Martial Ranged Weapons}
+			\begin{itemize}[wide]
+				\item Gauss Rifle
+				\begin{itemize}
+					\item Description: Full-size personal railgun with a $1500 \frac{m}{s}$ muzzle velocity
+					\item Ammunition: $13mm$ S.E. minie-ball (Aluminum)
+					\item Ammunition Capacity: 10
+					\item Recharge Time: 4 seconds
+					\item Price: 87 GP \& 5 SP
+					\item Base Damage: $1D8$ +1, Piercing
+					\item Base Range: 180 / 720
+					\item Requirements: Two Mk. I Power Cells
+					\item Weight: 10 lbs
+				\end{itemize}
+				\item Gauss Flechetter
+				\begin{itemize}
+					\item Description: Shoulder-mounted gaussian flechette launcher with a $350 \frac{m}{s}$ muzzle velocity
+					\item Ammunition: $80mm \times 11mm$ cylindrical flechette (Aluminum)
+					\item Ammunition Capacity: 1
+					\item Recharge Time: 5 seconds
+					\item Price: 100 GP
+					\item Base Damage: $1D12$ +2, Piercing
+					\item Base Range: 160 / 640
+					\item Requirements: Mk. II Power Cell
+					\item Weight: 16 lbs
+				\end{itemize}
+			\end{itemize}
+			\vfill \null \columnbreak
+
+## Ammunition \& Power Sources}
+			\begin{itemize}[wide]
+				\item $10mm$ S.E. Aluminum minie-ball
+				\begin{itemize}
+					\item Cost: Five for 1 SP
+					\item Weight: 0.01 lb
+				\end{itemize}
+				\item $8 \times 6mm$ Aluminum B.B.-shell
+				\begin{itemize}
+					\item Cost: 2 SP
+					\item Weight: 0.05 lb
+				\end{itemize}
+				\item $13mm$ S.E. Aluminum minie-ball
+				\begin{itemize}
+					\item Cost: Five for 2 SP
+					\item Weight: 0.02 lb
+				\end{itemize}
+				\item $80mm \times 11mm$ Aluminum flechette
+				\begin{itemize}
+					\item Cost: 5 SP
+					\item Weight: 0.1 lb
+				\end{itemize}
+				\item Mk. I Power Cell
+				\begin{itemize}
+					\item Cost: 5 GP
+					\item Weight: 1 lb
+				\end{itemize}
+				\item Mk. II Power Cell
+				\begin{itemize}
+					\item Cost: 12 GP
+					\item Weight: 2 lb
+				\end{itemize}
+				\item Mk. III Power Cell
+				\begin{itemize}
+					\item Cost: 22 GP
+					\item Weight: 6 lb
+				\end{itemize}
+			\end{itemize}
+			\vfill \pagebreak
+
+## Weapon Mod Kits/Components}
+### Overview}
+			Weapon Mods help to further customize and enhance once weaponry beyond one's skill or history with the weapon.
+			Though often as expensive as or moreso than the weapon they apply to, they afford specialist combatants great advantage in battle. \linebreak
+			Rules for using mods are rather simple: \linebreak
+
+			Only one mod of a given class can be present on one weapon at a time; \linebreak
+
+			Mods can be added and/or removed from a weapon if an Ability check is passed for the mods' given Difficulty Class and Ability, and the check is performed outside of combat; \linebreak
+
+			Mods can break if being removed and a critical failure occurs, though they can then be repaired for half their price from a weaponsmith, or by passing double the removal Difficulty Class check; \linebreak
+
+			Finally, special mods not listed below may be discovered on your journeys, but will often be boosted and/or specialized variants of said listed mods.
+
+### Melee}
+			\begin{itemize}[wide]
+				\item Weights
+				\begin{itemize}
+					\item Effect: +(Weight $\div$ 4, round down) Bludgeoning Damage, -(Weight $\div$ 8, round down) to Hit
+					\item Class: Melee
+					\item Attaches To: Blunt 
+					\item Add/Remove: $DC6$/$DC8$ Strength
+					\item Weight: 4 to 16 lbs
+					\item Cost: 1 GP
+				\end{itemize}
+				\vfill \null \columbreak
+				\item Spikes
+				\begin{itemize}
+					\item Effect: +(Weight $\div$ 2, round down) Piercing Damage
+					\item Class: Melee
+					\item Attaches To: Blunt
+					\item Add/Remove: $DC8$/$DC10$ Dexterity
+					\item Weight: 2 to 6 lbs
+					\item Cost: 3 GP
+				\end{itemize}
+				\item Whetstone
+				\begin{itemize}
+					\item Effect: +(Weapon Damage Die $\div$ 2) Piercing/Slashing Damage (inherit type from weapon), lasts for 12 hours, can be reapplied
+					\item Class: Melee
+					\item Attaches To: Bladed
+					\item Add/Remove: $DC10$/$-$ Intelligence
+					\item Weight: N/A
+					\item Cost: 5 GP (Simple) or 25 GP (Martial)
+				\end{itemize}
+				\item Shock Pack
+				\begin{itemize}
+					\item Effect: + $1D($Weapon Damage Die$)$ Lightning Damage
+					\item Class: Melee
+					\item Attaches To: Bladed, Chain
+					\item Add/Remove: $DC14$/$DC18$ Intelligence
+					\item Weight: 5 lbs
+					\item Cost: 30 GP
+				\end{itemize}
+			\end{itemize}
+			\vfill \pagebreak
+
+### Ranged}
+			\begin{itemize}[wide]
+				\item Basic Burst Fire
+				\begin{itemize}
+					\item Effect: perform 3 Attacks, each -3 to Hit, with 1 Action, once per Turn
+					\item Class: Trigger
+					\item Attaches To: Pistol, Scattergun, Rifle
+					\item Add/Remove: $DC12$/$DC14$ Intelligence
+					\item Weight: 3 lbs
+					\item Cost: 33 GP
+				\end{itemize}
+				\item Advanced Burst Fire
+				\begin{itemize}
+					\item Effect: perform 2 Attacks with 1 Action, once per Turn
+					\item Class: Trigger
+					\item Attaches To: Pistol, Scattergun, Rifle
+					\item Add/Remove: $DC14$/$DC18$ Dexterity or Intelligence
+					\item Weight: 2 lbs
+					\item Cost: 78 GP
+				\end{itemize}
+				\item Snub Barrel
+				\begin{itemize}
+					\item Effect: +2 to Hit, no Piercing Bonus Damage  
+					\item Class: Barrel
+					\item Attaches To: Pistol, Scattergun, Rifle
+					\item Add/Remove: $DC8$/$DC10$ Dexterity
+					\item Weight: 1 lb
+					\item Cost: 12 GP
+				\end{itemize}
+				\vfill \null \columnbreak
+				\item Extended Barrel
+				\begin{itemize}
+					\item Effect: +4 to Hit, +2 Piercing Damage
+					\item Class: Barrel
+					\item Attaches To: Pistol, Scattergun, Rifle
+					\item Add/Remove: $DC12$/$DC16$ Dexterity
+					\item Weight: 4 lbs
+					\item Cost: 64 GP
+				\end{itemize}
+				\item Leather-Padded Stock
+				\begin{itemize}
+					\item Effect: +1 to Hit
+					\item Class: Stock
+					\item Attaches To: Scattergun, Rifle, Flechetter
+					\item Add/Remove: $DC8$/$DC10$ Dexterity
+					\item Weight: 2 lbs
+					\item Cost: 10 GP
+				\end{itemize}
+				\item Carbon-Fiber Stock
+				\begin{itemize}
+					\item Effect: +3 to Hit, less weight
+					\item Class: Stock
+					\item Attaches To: Scattergun, Rifle, Flechetter
+					\item Add/Remove: $DC10$/$DC14$ Dexterity
+					\item Weight: -2 lbs
+					\item Cost: 24 GP
+				\end{itemize}
+				\vfill \null \columnbreak
+				\item Red Dot Sight
+				\begin{itemize}
+					\item Effect: +1 to Hit, +40 feet of range
+					\item Class: Scope
+					\item Attaches To: Pistol, Rifle, Flechetter
+					\item Add/Remove: $DC10$/$DC14$ Intelligence
+					\item Weight: 1 lb
+					\item Cost: 40 GP
+				\end{itemize}
+				\item Telescopic Sight
+				\begin{itemize}
+					\item Effect: +4 to Hit, $\times$2 range
+					\item Class: Scope
+					\item Attaches To: Pistol, Rifle, Flechetter
+					\item Add/Remove: $DC14$/$DC18$ Dexterity or Intelligence
+					\item Weight: 4 lbs
+					\item Cost: 80 GP
+				\end{itemize}
+				\item Forward Pistol Grip
+				\begin{itemize}
+					\item Effect: +2 to Hit
+					\item Class: Grip
+					\item Attaches To: Scattergun, Rifle, Flechetter 
+					\item Add/Remove: $DC8$/$DC10$ Dexterity
+					\item Weight: 2 lbs
+					\item Cost: 12 GP
+				\end{itemize}
+				\item Bipod
+				\begin{itemize}
+					\item Effect: +4 to Hit, -1 Armor Class (when equipped)
+					\item Class: Grip
+					\item Attaches To: Scattergun, Rifle, Flechetter 
+					\item Add/Remove: $DC10$/$DC12$ Dexterity
+					\item Weight: 5 lbs
+					\item Cost: 25 GP
+				\end{itemize}
+			\end{itemize}
+			\vfill
+
+## Vehicles}
+			\begin{itemize}[wide]
+				\item Motorcycle
+				\begin{itemize}
+					\item Description: Electric-driven, with regenerative braking and built-in charge-transfer module; Comes in two-wheel and three-wheel variants
+					\item Base Cost: 100 GP
+					\item Speed: 75
+					\item Requirements: Mk III Power Cell
+					\item Capacity: 500 lbs, two seats
+				\end{itemize}
+				\item Dune Buggy
+				\begin{itemize}
+					\item Description: Electric-driven, with regenerative braking and built-in charge-transfer module; Comes in wheeled and treaded variants, as well as open-cabin and closed-cabin
+					\item Base Cost: 400 GP
+					\item Speed: 60
+					\item Requirements: Two Mk III Power Cells
+					\item Capacity: 840 lbs, three seats
+				\end{itemize}
+			\end{itemize}
+			\vfill \null \columnbreak
+
+# Misc. Notes \& Gameplay Rules}
+## Skill Points}
+			Skills work off a bonus-points system, where a player can spend skill points during level-up to further buff skills of theirs.
+			When rolling for a skill check, a player with bonus points can add said points and the roll, which also already has an Ability mod and potentially Proficiency.
+			Skill points are allotted as follows:
+			\begin{itemize}
+				\item Points at Level 1: \linebreak $4 \times \big(1 \; + \max(\text{Int. mod.}, \text{ Wis. mod.}, 0)\big)$
+				\item Points every other ($2, 4, 6, \dots$) higher level: \linebreak $1 \; + \max(\text{Int. mod.}, \text{ Wis. mod.}, 0)$
+			\end{itemize}
+			Skill points can also be earned by taking sessions with skill trainers over the course of a player's journey
+## Ability Score Generation}
+			For character generation, ability scores can be determined by any one of the three following methods:
+			\begin{itemize}[wide]
+				\item Six $D20$: Roll six $D20$ dice and distribute the rolls to your ability scores
+				\item Four-Drop-Lowest $D6$: Roll four $D6$ and discard the lowest roll. Repeat six times, and then distribute the sums of the rolls to your ability scores
+				\item Point-Buy: Start all ability scores at 8. Given 27 points to distribute, increase scores up to a maximum of 15 until exactly 27 points are spent. One score increase costs one point up until a score of 13; Increasing a score from 13 to 14 costs two points, as does increasing a score from 14 to 15. For example, a score of 10 costs 2 points, 12 costs 4 points, 14 costs 7 points.
+			\end{itemize}
+			\vfill \null \columnbreak
+## Ionizing Radiation}
+			Though unseen to the naked eye, radiation sources and contaminated zones are just as deadly to adventurers as military drones, highwaymen, or any matter of aberrations.
+			Though measurements of radiation vary depending on the context, a scale of Severity Levels is often used by common travellers, ranging from 1, being mildly abnormal, to 5, being certain to cause death in the short term. \linebreak
+
+			All creatures not immune or protected from a given Severity Level will suffer a negative change to their Strength and Constitution Ability scores while within a zone of radiation.
+			Additionally, for Severity Levels 3 and higher, susceptible creatures must make a Constitution Saving Throw every 15 minutes, with difficulty class 8 + (Severity Level $\times$ 2).
+			Failing a throw will cause the Strength and Constitution deficits to become permanent, as an effect called Radiation Poisoning, which must be treated by proper medical personnel.
+			Subsequent failed throws when under the effects of Radiation Poisoning will deal direct damage to the creature equal to the Severity Level.
+			A few example scenarios are listed below:
+
+			\begin{itemize}[wide]
+				\item An Ursa with Strength 19 and Constitution 15 enters a Severity 4 radiation zone.
+				His Strength immediately drops to 15 and his Constitution to 11.
+				After 45 minutes, he fails his first Constitution Saving Throw of $DC16$.
+				He leaves the zone 40 minutes later, having failed two more Saving Throws, lost 8 Hit Points, and gained Severity 4 Radiation Poisoning.
+				\item A Human with Strength 15 and Constitution 17 enters a Severity 3 radiation zone.
+				Her Strength immediately drops to 12 and her Constitution to 14.
+				She leaves after 20 minutes, succeeding a Constitution Saving Throw of $DC14$.
+				Upon leaving, her Strength and Constitution return to normal
+				\item A Radified enters a Severity 5 radiation zone.
+				They suffer no loss of Strength or Constitution, and stay within the zone for nearly a week.
+
+			\end{itemize}
+
+# Minigames}
+
+## D'vadtsat}
+
+### Rules}
+			\begin{itemize}[wide]
+				\item Setup: Find two players. Draw four side-deck cards from your personal side deck. Flip a coin or play Rock Paper Scissors to determine who takes the first turn in the first round.
+				\item Objective: Be the first player to win 3 Rounds. To win a round, you must deal up to 9 cards such that one of the following score conditions is met:
+				\begin{itemize}
+					\item Your cards sum up to 20 (ties possible)
+					\item Your cards sum up to more than your opponent's cards
+					\item You play 9 cards with a sum less than or equal to 20 (beats a 20-sum of 8 cards or less); If both players accomplish this, see the previous condition
+				\end{itemize}
+				\item Round Play:
+				\begin{itemize}
+					\item During a round, players take turns each drawing one card from the common deck
+					\item After a player draws, they have the option to play one side-deck card
+					\item If ever a player's dealt cards sum to 20, they automatically fold and cannot take anymore turns
+					\item Players can opt to fold (stop playing) at the end of their turn if their cards sum to less than 20
+					\item If a player's turn ends and their score exceeds 20, they automatically lose the round
+					\item The winning player of a round goes first in the next round
+					\item If a tie occurs, the player who went second in the tied round goes first in the next round
+					\item When starting a new round, discard any side-deck cards from play and reshuffle the common deck
+				\end{itemize}
+			\end{itemize}
+
+### Required Items}
+			\begin{itemize}[wide]
+				\item Common-card deck
+
+				This deck consists of fourty cards, with four cards each of values from 1 to 10. It can be created by removing face cards from a deck of playing cards
+
+				\item Side-card deck
+
+				This deck must be assembled from exactly 10 cards of the player's choice, and must be shuffled at the beginning of every game and four cards randomly drawn from it to be played. Legal cards can be of the following types:
+
+				\begin{itemize}
+					\item Plus Card: adds to the player's score, with values from 1 to 6; Set: $\{+1, +2, +3, +4, +5, +6\}$
+					\item Minus Card: subtracts from the player's score, with values from 1 to 6; Set: $\{-1, -2, -3, -4, -5, -6\}$
+					\item P.M. Card: adds or subtracts from the player's score, depending on which side is facing away from the player when the card is played, with values from 1 to 6; Set: $\{\pm1, \pm2, \pm3, \pm4, \pm5, \pm6\}$
+					\item Flip Card: flips the sign of all cards of certain values already played by the player that plays this card, with values of 2 \& 4 and 3 \& 6; Set: $\{F2\&4, F3\&6\}$
+					\item Multiplier: multiplies the value of the last played card by a value, withs values of 2 and 3; Set: $\{M2, M3\}$
+					\item Tiebreaker: A special P.M. card that will ensure victory if it is the last played card before folding and the opponent ties with the player, with values of 1 and 2; Set: $\{T\pm1, T\pm2\}$
+				\end{itemize}
+			\end{itemize}
+			\null \pagebreak
+
+# Geographic Surveys}
+## Baltic Sea}
+
+			\begin{itemize}[wide]
+				\item Koppen-Geiger climate class: Dfc
+				\item Major Settlements:
+				\begin{itemize}
+					\item Stockholm
+					\item Helsinki
+					\item Putingrad
+					\item Tallinn
+					\item G'dansk
+					\item Capenhogen
+				\end{itemize}
+				\item Local Sentient Population: (Ranked)
+				\begin{enumerate}
+					\item Humans (Regular)
+					\item Humans (Mutant)
+					\item Ursa-folk
+				\end{enumerate}
+				\item Overview: \linebreak
+
+				The Baltic region of Europa has maintained its cold climate, and its cold disposition.
+				Outside of major settlements, a smattering of decrepit and ramshackle villages dot the landscape.
+				While not outright hostile to outsiders, villagers are not forthcoming without significant displays of hospitality from visitors \linebreak
+
+				Deep within the forests and mountains of the region, ancient science centers, missile silos, and other old-world installations persist in silence.
+				Some still have their automatonian defenders still active, who shoot all intruders on sight, if they can see.
+				Further on, their are whipsers of heavily-doped magic hotspots, and incursion sites of malevolent daemons, though the latter have no corroborated reports.
+			\end{itemize}
+			\vfill \null \columnbreak
+
+# Anomalous Entity Reports}
+## "The Lodge"}
+			\begin{itemize}[wide]
+				\item Overview: \linebreak
+
+				"The Lodge" is dream-like zone, with an unknown location.
+				Visitors arrive in the lodge after falling asleep, yet exit without reawakening, confirming its existance.
+				Techniques to induce visitation have proved fruitless; some Order mages theorize the lodge itself plucks visitors out of their rest and into it.
+				The Lodge is composed of an unknown number of rooms, with plank wood flooring, red-curtained walls, illuminated by ornate lamps, and furnished with ancient decorum dating back to the 20th century. \linebreak
+
+				Permanent inhabitants of the lodge are unknown in total number, yet three distinct entities have been repeatedly identified:
+				\begin{itemize}
+					\item Mikael: A one-armed elderly gentleman, whose speech sounds doubly-reversed.
+						He is benevolent, from all recorded accounts, and helps in his own way to lead visitors out of the lodge.
+						However, his advice is often cryptic and at times nonsensical.
+
+					\item Boris: A long-haird, menacing figure, who taunts, and sometimes threatens, visitors.
+						Is incredibly violent to permanent residents of the lodge, and will chase and hound them throughout the endless rooms.
+						Avoid at all costs.
+
+					\item Lora: An elderly woman, clad in a black evening dress.
+						Is only found in the "heart" of the lodge, a room with three chairs, a lamp, and a marble statue.
+						She is the key to escaping the lodge.
+						She is dead, yet she lives.
+				\end{itemize}
+			\end{itemize}
+			\vfill \null
+		\end{multicols}
+	\end{FlushLeft}
+\end{document}
+-->
