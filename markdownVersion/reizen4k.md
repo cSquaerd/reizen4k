@@ -6,6 +6,11 @@ author: Presented by C$^2$ Studios
 fontsize: 16pt
 documentclass: scrbook
 indent: true
+header-includes:
+- \renewcommand{\labelitemi}{$\circ$}
+- \renewcommand{\labelitemii}{$\bullet$}
+- \renewcommand{\labelitemiii}{$\diamond$}
+- \renewcommand{\familydefault}{\sfdefault}
 ---
 
 <!--\documentclass[12pt, landscape]{article}
@@ -16,12 +21,7 @@ indent: true
 \usepackage{listings}
 \usepackage{enumitem}
 
-\renewcommand{\ttdefault}{txtt}
-\renewcommand{\familydefault}{\ttdefault}
 
-\renewcommand{\labelitemi}{$\circ$}
-\renewcommand{\labelitemii}{$\bullet$}
-\renewcommand{\labelitemiii}{$\diamond$}
 
 \setlength{\columnsep}{2em}
 \setlength{\columnseprule}{0.1em}
@@ -108,6 +108,7 @@ When a hybrid, the player gets the explicit Ability buffs of their other race up
 Hard Work \& Guts! and one of the two leveled features listed below should also be taken, with the leveled feature being at a different level from the beast leveled feature. $\hfill\null\linebreak\linebreak$
 *Hybridization Examples*
 	* a Human-Ursa has +2 to Strength, +2 to Constitution, +1 to one other ability score, and either In The Woods or Claws, and either Go-Getter Spirit and The Nose Knows or More Guts! and Micro Hibernation.
+	$\vspace{\fill}\pagebreak$
 
 	* a Human-Feline has +2 to Dexterity, +2 to Charisma, +1 to one other ability score, and either Cunning or Darkvision, and either Go-Getter Spirit and Claws or More Guts! and Nine Lives.
 
