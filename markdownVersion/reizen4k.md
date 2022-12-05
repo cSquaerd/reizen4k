@@ -230,31 +230,31 @@ You have advantage on and proficiency with olfactory-based Perception checks
 For 24 hours after every long rest you take, you gain +4 to your Armor Class, +1 to your Strength ability score, and your claws deal an additional +2 Slashing damage
 
 ## Gecko Beast-Folk (Lizard)
-			\begin{itemize}[wide]
-				\item Bonuses
-				\begin{itemize}
-					\item +4 to Dexterity ability score
-					\item +1 to two other ability scores of your choice
-				\end{itemize}
-				\item Powers / Abilities
-				\begin{itemize}
-					\item **Mending Tongue}
+\begin{itemize}[wide]
+	\item Bonuses
+	\begin{itemize}
+		\item +4 to Dexterity ability score
+		\item +1 to two other ability scores of your choice
+	\end{itemize}
+	\item Powers / Abilities
+	\begin{itemize}
+		\item **Mending Tongue}
 
-					Not only is good for cleaning one's eyes, a Gecko’s tongue is capable of many odd feats.
-					Mainly, it can heal minor wounds (four +4 HP licks per Rest (long or short), one additional lick more every even level)
+		Not only is good for cleaning one's eyes, a Gecko’s tongue is capable of many odd feats.
+		Mainly, it can heal minor wounds (four +4 HP licks per Rest (long or short), one additional lick more every even level)
 
-					\item **Darkvision}
-					\item **Tongue Grapple} (Level 4)
+		\item **Darkvision}
+		\item **Tongue Grapple} (Level 4)
 
-					Your tongue is now sturdy and long enough to support your weight. When attached to a surface, you can grapple under it up to 3 feet.
-					Alternatively, you can sling objects of your weight or less around in a 3 foot radius
-					\item **Thick Skin} (Level 8)
+		Your tongue is now sturdy and long enough to support your weight. When attached to a surface, you can grapple under it up to 3 feet.
+		Alternatively, you can sling objects of your weight or less around in a 3 foot radius
+		\item **Thick Skin} (Level 8)
 
-					After several times shedding, you find your new skin is much more resilient!
-					Per the player’s choice, you can now resist either +3 Piercing damage, +3 Slashing damage, or +3 Bludgeoning damage innately, and you unarmored AC is now 13 + Dexterity Mod. (Maximum of +3)
-				\end{itemize}
-			\end{itemize}
-			\vfill \pagebreak
+		After several times shedding, you find your new skin is much more resilient!
+		Per the player’s choice, you can now resist either +3 Piercing damage, +3 Slashing damage, or +3 Bludgeoning damage innately, and you unarmored AC is now 13 + Dexterity Mod. (Maximum of +3)
+	\end{itemize}
+\end{itemize}
+\vfill \pagebreak
 
 ## Canid Beast-Folk (Dog)
 			\begin{itemize}[wide]
